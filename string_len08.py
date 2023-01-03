@@ -1,3 +1,4 @@
+from math import floor
 def main(s):
     """
     Given variable type string s. Return the character in the middle.
@@ -8,4 +9,13 @@ def main(s):
     Returns:
         str: answer
     """
-    return
+    lens = len(s)
+    if lens % 2 == 0:
+        harf = s[floor(lens/2-1):floor(lens/2+1)]
+
+    else:
+        harf = s[floor(lens/2)]
+    return harf
+
+y = main("abcdf")
+print(y)
