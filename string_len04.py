@@ -7,6 +7,7 @@ def main(s):
         string
     """
     a = len(s)
+    b = "*"*a
     return a
 y = main('python')
-print("*"*y)
+print(y)
