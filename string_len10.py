@@ -8,10 +8,9 @@ def main(s):
     Returns:
         bool: answer
     """
-    palindrome = len(s)
-    if palindrome == 3:
-        return False
-    else:
+    if s[0] == s[2]:
         return True
+    else:
+        return False
 y = main('cff')
 print(y)        
