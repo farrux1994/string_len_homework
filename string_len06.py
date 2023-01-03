@@ -9,5 +9,7 @@ def main(s1,s2):
     """
     if len(str(s1)) < len(str(s2)):
         return s1
+    else:
+        return s2
 y = main('code', 'python')
 print(y)
