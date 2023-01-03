@@ -7,7 +7,7 @@ def main(s1,s2):
     Returns:
         shortest string
     """
-    if len(s1) < len(s2):
+    if len(str(s1)) < len(str(s2)):
         return s1
 y = main('code', 'python')
 print(y)
