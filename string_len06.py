@@ -11,6 +11,5 @@ def main(s1,s2):
     b = len(s2)
     if a < b:
         return s1
-    return l
 y = main('code', 'python')
 print(y)
