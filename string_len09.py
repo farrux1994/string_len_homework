@@ -9,4 +9,7 @@ def main(num1, num2):
     Returns:
         str: answer
     """
-    return
+    yigindi = int(num1) + int(num2)
+    return str(yigindi)
+y = main(12, 5)
+print(y)
