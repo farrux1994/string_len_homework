@@ -6,8 +6,8 @@ def main(s):
     Returns:
         string
     """
-    a = len(s)
+    a = len(str(s))
     b = "*"*a
-    return a
+    return b
 y = main('python')
 print(y)
